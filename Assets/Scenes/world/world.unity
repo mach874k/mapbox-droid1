@@ -527,7 +527,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xpText: {fileID: 247617069}
   levelText: {fileID: 788603274}
-  menu: {fileID: 2115536768}
+  menu: {fileID: 2059319005}
   menuButtonSound: {fileID: 8300000, guid: 77dd5b684176bbd4fb4acaa68f965a77, type: 3}
 --- !u!82 &298767386
 AudioSource:
@@ -637,6 +637,7 @@ GameObject:
   - component: {fileID: 350716720}
   - component: {fileID: 350716719}
   - component: {fileID: 350716722}
+  - component: {fileID: 350716723}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -728,6 +729,18 @@ MonoBehaviour:
   startingDroids: 5
   minRange: 5
   maxRange: 50
+--- !u!114 &350716723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 350716718}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 722b25752f396ec4086b980fef07f09d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &549480893 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1589080780349302, guid: da4c35291f8065643a84f15ad26eb3d4,
@@ -1646,7 +1659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ef90495263819d4e819df5fb20598f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentPlayer: {fileID: 0}
+  currentPlayer: {fileID: 549480898}
 --- !u!4 &1326858069
 Transform:
   m_ObjectHideFlags: 0
