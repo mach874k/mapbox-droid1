@@ -2884,7 +2884,7 @@ MonoBehaviour:
   attack: 0
   defense: 0
   hp: 10
-  crySound: {fileID: 0}
+  crySound: {fileID: 8300000, guid: 2cfd03794c6fd874f9379fac2bee25b9, type: 3}
 --- !u!137 &137078199758624560
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
